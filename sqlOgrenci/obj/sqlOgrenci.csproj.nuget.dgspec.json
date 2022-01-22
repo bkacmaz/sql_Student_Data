@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\alicanmadan\\source\\repos\\sqlOgrenci\\sqlOgrenci\\sqlOgrenci.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\alicanmadan\\source\\repos\\sqlOgrenci\\sqlOgrenci\\sqlOgrenci.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alicanmadan\\source\\repos\\sqlOgrenci\\sqlOgrenci\\sqlOgrenci.csproj",
+        "projectName": "sqlOgrenci",
+        "projectPath": "C:\\Users\\alicanmadan\\source\\repos\\sqlOgrenci\\sqlOgrenci\\sqlOgrenci.csproj",
+        "packagesPath": "C:\\Users\\alicanmadan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alicanmadan\\source\\repos\\sqlOgrenci\\sqlOgrenci\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alicanmadan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NuGet.CommandLine": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.11.0, )"
+            },
+            "NuGet.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NuGet.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NuGet.Frameworks": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NuGet.LibraryModel": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NuGet.PackageManagement": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NuGet.Packaging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NuGet.Packaging.Core": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
