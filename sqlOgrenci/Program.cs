@@ -8,7 +8,7 @@ namespace sqlOgrenci
     {
         static void Main(string[] args)
         {
-            string connectionString = "Data Source=PC-34;Initial Catalog=OGRENCI;User ID=SQLuser;Password=1";
+            string connectionString = "Data Source=;Initial Catalog=;User ID=;Password=";
             SqlConnection cnn;
             cnn = new SqlConnection(connectionString);
             cnn.Open();
